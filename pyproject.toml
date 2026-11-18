@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=78.1.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cellprobe"
+version = "0.1.0"
+description = "Offline, read-only mobile hardware battery & powerlog forensics CLI for iOS and Android (Windows-first, privacy-first)."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+authors = [
+  { name = "Mitsaken", email = "Mitsaken@users.noreply.github.com" }
+]
+keywords = ["ios", "android", "battery", "diagnostics", "powerlog", "sysdiagnose", "adb", "pymobiledevice3"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Information Technology",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: System :: Hardware",
+  "Topic :: Utilities",
+]
+dependencies = []
+
+[project.optional-dependencies]
+ios = ["pymobiledevice3>=5.0.0,<12"]
+
+[project.urls]
+Homepage = "https://github.com/Mitsaken/cellprobe"
+Repository = "https://github.com/Mitsaken/cellprobe.git"
+Issues = "https://github.com/Mitsaken/cellprobe/issues"
+
+[tool.setuptools]
+packages = ["cellprobe_lib"]
+
+[project.scripts]
+cellprobe = "cellprobe_lib.cli:main"

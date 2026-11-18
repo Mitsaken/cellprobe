@@ -1,0 +1,170 @@
+{
+  "platform": "ios",
+  "generated_at": "2026-11-18T12:00:00Z",
+  "device": {
+    "device_name": "Sample iPhone",
+    "product_type": "iPhone12,8",
+    "hardware_model": "D79AP",
+    "os_version": "iOS 18.6",
+    "build_version": "22G100",
+    "udid": "00008030-0000000000000000",
+    "battery_serial": "SYNTHETICBATTSN01",
+    "storage_gb": 64,
+    "free_gb": 2,
+    "auto_lock_never": true,
+    "uptime_days": 14.2
+  },
+  "hardware_battery": {
+    "cycle_count": 1180,
+    "design_capacity_mah": 1821,
+    "nominal_charge_capacity_mah": 1240,
+    "capacity_retention_pct": 68.1,
+    "raw_max_min_mah": 1190,
+    "ios_health_percent": 73,
+    "service_state": 1,
+    "battery_auth": 1,
+    "serial_changed": 0,
+    "week_mfd": 202014,
+    "yww": "014",
+    "operating_hours": 18420,
+    "weighted_ra_mohm": 542,
+    "ra_table_max_mohm": 620,
+    "voltage_min_mv": 3290,
+    "max_temp_c": 41.2,
+    "high_temp_39c_samples": 12,
+    "lifetime_upo_count": 2,
+    "cpms_throttling": {
+      "detected": true,
+      "reduction_10_49_sec": 84.5,
+      "max_reduction_pct": 30,
+      "peak_power_transitions": 4
+    },
+    "bg_thermal_pressure_events": 18,
+    "bg_peak_power_events": 4,
+    "idle_standby_avg_ma": -8.4,
+    "degradation_history": [
+      {
+        "date": "2024-06-01T00:00:00Z",
+        "cycle_count": 640,
+        "health_pct": 85,
+        "ncc_mah": 1548,
+        "qmax_mah": 1590,
+        "weighted_ra_mohm": 265
+      },
+      {
+        "date": "2026-11-18T00:00:00Z",
+        "cycle_count": 1180,
+        "health_pct": 73,
+        "ncc_mah": 1240,
+        "qmax_mah": 1280,
+        "weighted_ra_mohm": 542
+      }
+    ]
+  },
+  "usage": {
+    "days_observed": 7,
+    "avg_screen_on_hours_per_day": 4.3,
+    "avg_plugged_in_hours_per_day": 2.1,
+    "max_screen_on_hours_day": 6.1
+  },
+  "battery_ui": {
+    "day": {
+      "total_energy_pct": 100,
+      "apps": [
+        {
+          "name": "ExampleSocial",
+          "bundle_id": "com.example.social",
+          "energy_pct": 38,
+          "energy_used": 1420.5,
+          "fg_min": 65.0,
+          "bg_min": 42.0
+        },
+        {
+          "name": "ExampleChat",
+          "bundle_id": "com.example.chat",
+          "energy_pct": 24,
+          "energy_used": 890.0,
+          "fg_min": 31.0,
+          "bg_min": 18.5
+        }
+      ]
+    },
+    "week": {
+      "total_energy_pct": 100,
+      "apps": [
+        {
+          "name": "ExampleSocial",
+          "bundle_id": "com.example.social",
+          "energy_pct": 41,
+          "energy_used": 9820.0,
+          "fg_min": 420.0,
+          "bg_min": 310.0
+        }
+      ]
+    }
+  },
+  "software_and_radio": {
+    "root_nodes_24h": [
+      {
+        "name": "com.example.social",
+        "energy": 1650.2,
+        "share_pct": 58.3
+      },
+      {
+        "name": "Display",
+        "energy": 1180.0,
+        "share_pct": 41.7
+      }
+    ],
+    "wakes_24h": 284,
+    "span_hours": 24.0,
+    "wake_reasons_24h": [
+      {
+        "reason": "rtc",
+        "count": 192
+      },
+      {
+        "reason": "wlan",
+        "count": 64
+      }
+    ],
+    "pushes_24h": [
+      {
+        "bundle_id": "com.example.social",
+        "connection": "wwan",
+        "did_wake": 1,
+        "count": 46
+      }
+    ],
+    "network_wakes": [],
+    "location_clients": [
+      {
+        "client": "com.apple.AegirProxyApp",
+        "type": "Location",
+        "count": 32
+      }
+    ],
+    "bg_location_apps": [
+      {
+        "bundle_id": "com.example.weatherwidget",
+        "bg_location_min": 21.5
+      }
+    ],
+    "cellular": {
+      "rats": {
+        "LTE": 3840,
+        "NR": 152
+      },
+      "signal_bars_pct": {
+        "1": 28.0,
+        "2": 18.0,
+        "3": 34.0,
+        "4": 20.0
+      },
+      "poor_signal_pct": 46.0,
+      "registration_drops": 7
+    },
+    "hey_siri_enabled": true,
+    "low_power_mode_enabled": false
+  }
+}

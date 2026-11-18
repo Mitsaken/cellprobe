@@ -1,0 +1,42 @@
+=== GETPROP ===
+[ro.product.model]: [Pixel 8 Sample]
+[ro.product.manufacturer]: [Google]
+[ro.build.version.release]: [15]
+[ro.build.display.id]: [AP3A.241005.015]
+
+=== DF ===
+Filesystem     1K-blocks     Used Available Use% Mounted on
+/dev/block/dm-0 112000000 109500000 2500000  98% /data
+
+=== BATTERY ===
+Current Battery Service state:
+  AC powered: false
+  USB powered: false
+  status: 3
+  health: 2
+  present: true
+  level: 44
+  scale: 100
+  voltage: 3785
+  temperature: 342
+  technology: Li-ion
+  Charge counter: 1850000
+
+=== SYSFS_DESIGN ===
+charge_full_design=4575000
+
+=== BATTERYSTATS ===
+Battery History (100% used, 1024KB):
+  mBatteryCycleCount: 410
+  Min learned battery capacity: 4010 mAh
+  Estimated battery capacity: 4120 mAh
+  Computed drain: 2150, actual drain: 2210
+  Screen on: 4h 32m 10s 000ms (24.5%) 42x
+  Time on battery: 18h 30m 00s 000ms (98.0%)
+  Cellular signal levels: none 42m 0s 000ms (14.0%) 3x, poor 1h 12m 0s 000ms (24.0%) 5x, moderate 2h 0m 0s (30.0%) 2x, good 32.0%
+  Estimated power use (mAh):
+    Uid u0a214: 742.5 ( cpu=310 screen=280 radio=152.5 )
+    Uid u0a102: 418.0 ( cpu=290 wake=128 )
+    Uid 1000: 205.2 ( cpu=180 )
+  Wake lock *alarm*: 140s partial (94 times)
+  Wake lock NlpWakeLock: 88s partial (52 times)

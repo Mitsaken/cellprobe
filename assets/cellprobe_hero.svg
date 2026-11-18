@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" role="img" aria-label="CellProbe CLI Diagnostics Preview">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="55%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="420" rx="16" fill="url(#bg)" stroke="#1e293b" stroke-width="2"/>
+  <rect x="0" y="0" width="1200" height="5" rx="2" fill="url(#accent)"/>
+
+  <!-- Header -->
+  <text x="48" y="66" fill="#f8fafc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="34" font-weight="700">CellProbe</text>
+  <rect x="242" y="40" width="84" height="30" rx="6" fill="#0f2942" stroke="#38bdf8" stroke-width="1"/>
+  <text x="284" y="60" text-anchor="middle" fill="#38bdf8" font-family="ui-monospace, monospace" font-size="14" font-weight="600">v0.1.0</text>
+  <text x="1152" y="60" text-anchor="end" fill="#64748b" font-family="ui-monospace, monospace" font-size="12" font-weight="600">ILLUSTRATIVE SAMPLE DATA · NOT A REAL DEVICE</text>
+  <text x="48" y="96" fill="#94a3b8" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="16">Offline, Read-Only Mobile Battery &amp; Powerlog Forensics CLI (iOS &amp; Android)</text>
+
+  <!-- Feature Pills -->
+  <g font-family="ui-monospace, monospace" font-size="12" font-weight="600">
+    <rect x="48" y="116" width="174" height="26" rx="13" fill="#1e293b"/>
+    <text x="135" y="133" text-anchor="middle" fill="#cbd5e1">Zero-Dep Python 3.10+</text>
+    <rect x="232" y="116" width="146" height="26" rx="13" fill="#1e293b"/>
+    <text x="305" y="133" text-anchor="middle" fill="#cbd5e1">Read-Only SQLite</text>
+    <rect x="388" y="116" width="142" height="26" rx="13" fill="#1e293b"/>
+    <text x="459" y="133" text-anchor="middle" fill="#cbd5e1">PII --redact Mode</text>
+    <rect x="540" y="116" width="146" height="26" rx="13" fill="#1e293b"/>
+    <text x="613" y="133" text-anchor="middle" fill="#cbd5e1">CI Exit Codes 0/1/2</text>
+    <rect x="696" y="116" width="144" height="26" rx="13" fill="#1e293b"/>
+    <text x="768" y="133" text-anchor="middle" fill="#cbd5e1">SHA-256 Provenance</text>
+  </g>
+
+  <!-- Terminal Command Bar -->
+  <rect x="48" y="162" width="1104" height="44" rx="8" fill="#020617" stroke="#334155" stroke-width="1"/>
+  <text x="68" y="189" fill="#22c55e" font-family="ui-monospace, monospace" font-size="15" font-weight="700">$</text>
+  <text x="88" y="189" fill="#e2e8f0" font-family="ui-monospace, monospace" font-size="15">cellprobe analyze sysdiagnose_archive.tar.gz --redact --out-html report.html --fail-on HIGH</text>
+
+  <!-- Telemetry Cards -->
+  <rect x="48" y="226" width="260" height="148" rx="10" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+  <text x="68" y="254" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" font-weight="600">HEALTH &amp; CYCLES</text>
+  <text x="68" y="298" fill="#f97316" font-family="ui-monospace, monospace" font-size="34" font-weight="700">75%</text>
+  <text x="148" y="298" fill="#cbd5e1" font-family="ui-monospace, monospace" font-size="16">/ 1,698 cyc</text>
+  <text x="68" y="330" fill="#64748b" font-family="ui-monospace, monospace" font-size="13">NCC: 1,687 / 2,214 mAh</text>
+  <text x="68" y="352" fill="#94a3b8" font-family="ui-monospace, monospace" font-size="12">Retention: 76.2% (Aged)</text>
+
+  <rect x="328" y="226" width="260" height="148" rx="10" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+  <text x="348" y="254" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" font-weight="600">CELL IMPEDANCE</text>
+  <text x="348" y="298" fill="#ef4444" font-family="ui-monospace, monospace" font-size="34" font-weight="700">571</text>
+  <text x="424" y="298" fill="#cbd5e1" font-family="ui-monospace, monospace" font-size="16">mOhm</text>
+  <text x="348" y="330" fill="#64748b" font-family="ui-monospace, monospace" font-size="13">Metric: WeightedRa</text>
+  <text x="348" y="352" fill="#fca5a5" font-family="ui-monospace, monospace" font-size="12">Threshold: &gt;= 500 CRITICAL</text>
+
+  <rect x="608" y="226" width="260" height="148" rx="10" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+  <text x="628" y="254" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" font-weight="600">THROTTLE &amp; STORAGE</text>
+  <text x="628" y="298" fill="#eab308" font-family="ui-monospace, monospace" font-size="26" font-weight="700">CPMS -49%</text>
+  <text x="628" y="330" fill="#64748b" font-family="ui-monospace, monospace" font-size="13">556.5s / 35 transitions</text>
+  <text x="628" y="352" fill="#fca5a5" font-family="ui-monospace, monospace" font-size="12">Free: 0 GB / 64 GB (Jetsam)</text>
+
+  <rect x="888" y="226" width="264" height="148" rx="10" fill="#1f1215" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="908" y="254" fill="#fca5a5" font-family="system-ui, sans-serif" font-size="13" font-weight="600">MAX-SEVERITY VERDICT</text>
+  <rect x="908" y="272" width="128" height="34" rx="6" fill="#ef4444"/>
+  <text x="972" y="294" text-anchor="middle" fill="#ffffff" font-family="ui-monospace, monospace" font-size="16" font-weight="700">CRITICAL</text>
+  <text x="908" y="332" fill="#e2e8f0" font-family="ui-monospace, monospace" font-size="13">HW: CRIT | SW/Sys: CRIT</text>
+  <text x="908" y="354" fill="#94a3b8" font-family="ui-monospace, monospace" font-size="12">Exit Code: 1 (--fail-on)</text>
+</svg>
